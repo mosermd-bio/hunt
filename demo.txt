@@ -1,0 +1,17 @@
+# This is a DEMO 23andMe raw data file containing ONLY the 13 SNPs used by the Microbiota-Host Genetics Interpreter
+# For testing purposes only. Created from real genotypes but limited to only the relevant SNPs.
+#
+# rsid	chromosome	position	genotype
+rs4988235	2	135859484	AGA
+rs182549	2	135860000	CC
+rs4556017	7	100632790	CC
+rs550057	9	136146597	CC
+rs9411378	9	136145425	CC
+rs28407950	6	32626348	CC
+rs2287921	19	49220827	TT
+rs601338	19	49206108	GG
+rs681343	19	49206462	CC
+rs17007949	3	70920041	GG
+rs4785960	16	4453319	GG
+rs8182173	16	4420787	CC
+rs708686	19	5840619	CC
