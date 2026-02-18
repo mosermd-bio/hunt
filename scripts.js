@@ -232,7 +232,7 @@ document.getElementById('demoBtn').addEventListener('click', () => {
     statusEl.textContent = `Demo loaded (${Object.keys(genotypes).length} SNPs) ✓`;
 
     // Build table and synopsis exactly like real upload
-    let html = `<thead><tr><th>rsID</th><th>Locus</th><th>Your Genotype</th><th>Effect Allele</th><th>EA Count</th><th>Predicted Shift</th><th>What This Means (PCB4666 level)</th></tr></thead><tbody>`;
+    let html = `<thead><tr><th>rsID</th><th>Locus</th><th>Your Genotype</th><th>Effect Allele</th><th>EA Count</th><th>Predicted Shift</th><th>What This Means</th></tr></thead><tbody>`;
     TARGET_SNPS.forEach(s => {
         const gt = genotypes[s.rsid] || '<span class="text-gray-400">Not genotyped</span>';
         let count = 0;
@@ -268,7 +268,7 @@ fileInput.addEventListener('change', e => {
                     <th>Effect Allele</th>
                     <th>EA Count</th>
                     <th>Short Effect</th>
-                    <th>What This Means (PCB4666 level)</th>
+                    <th>What This Means</th>
                 </tr>
             </thead>
             <tbody>`;
