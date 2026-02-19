@@ -17,7 +17,7 @@ If you use this tool (in research, publications, pipelines, derivatives, or any 
 GitHub: [https://github.com/mosermd-bio/hunt](https://github.com/mosermd-bio/hunt)
 
 Example citation (for papers/posters/talks):
-> mosermd. (2026). Microbiota-Host Genetics Interpreter. GitHub repository. https://github.com/mosermd-bio/hunt
+> Matt Moser. (2026). Microbiota-Host Genetics Interpreter. GitHub repository. https://github.com/mosermd-bio/hunt
 
 Thanks for your support — happy to discuss collaborations or improvements!
 -Matt
